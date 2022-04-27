@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Hladir.Base", "R5T.Hlad
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Hladir.Base.Construction", "R5T.Hladir.Base.Construction\R5T.Hladir.Base.Construction.csproj", "{D4D8B52B-7B8E-4A10-B374-729F07D5E62C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{9A99C718-139F-4900-A78C-7032D232BCA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.T0064", "..\..\R5T.T0064\source\R5T.T0064\R5T.T0064.csproj", "{7B0A58A4-898E-4FB9-B0EC-31BEC553BE7B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,5 +48,20 @@ Global
 		{D4D8B52B-7B8E-4A10-B374-729F07D5E62C}.Release|x64.Build.0 = Release|Any CPU
 		{D4D8B52B-7B8E-4A10-B374-729F07D5E62C}.Release|x86.ActiveCfg = Release|Any CPU
 		{D4D8B52B-7B8E-4A10-B374-729F07D5E62C}.Release|x86.Build.0 = Release|Any CPU
+		{7B0A58A4-898E-4FB9-B0EC-31BEC553BE7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B0A58A4-898E-4FB9-B0EC-31BEC553BE7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B0A58A4-898E-4FB9-B0EC-31BEC553BE7B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{7B0A58A4-898E-4FB9-B0EC-31BEC553BE7B}.Debug|x64.Build.0 = Debug|Any CPU
+		{7B0A58A4-898E-4FB9-B0EC-31BEC553BE7B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7B0A58A4-898E-4FB9-B0EC-31BEC553BE7B}.Debug|x86.Build.0 = Debug|Any CPU
+		{7B0A58A4-898E-4FB9-B0EC-31BEC553BE7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B0A58A4-898E-4FB9-B0EC-31BEC553BE7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B0A58A4-898E-4FB9-B0EC-31BEC553BE7B}.Release|x64.ActiveCfg = Release|Any CPU
+		{7B0A58A4-898E-4FB9-B0EC-31BEC553BE7B}.Release|x64.Build.0 = Release|Any CPU
+		{7B0A58A4-898E-4FB9-B0EC-31BEC553BE7B}.Release|x86.ActiveCfg = Release|Any CPU
+		{7B0A58A4-898E-4FB9-B0EC-31BEC553BE7B}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7B0A58A4-898E-4FB9-B0EC-31BEC553BE7B} = {9A99C718-139F-4900-A78C-7032D232BCA7}
 	EndGlobalSection
 EndGlobal
